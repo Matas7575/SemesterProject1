@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>DNFC</title>
+    <link rel="icon" href="images/icon.ico">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="https://kit.fontawesome.com/afbcf9a091.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="content hmm">
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html"><img id="logo" src="images/logo/logonav.png"
+                        alt="DNFC logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#myNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand d-none d-md-block order-lg-2" href="https://www.via.dk/" target="_blank"><img
+                        id="vialogo" src="images/via.png" alt="VIA Logo"></a>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="navbar-nav ms-auto me-auto">
+                        <li class="nav-item"><a class="nav-link" href="index.html">HOME</a></li>
+                        <li class="nav-item"><a class="nav-link" href="sdj.html">SDJ</a></li>
+                        <li class="nav-item"><a class="nav-link" href="rwd.html">RWD</a></li>
+                        <li class="nav-item"><a class="nav-link" href="dma.html">DMA</a></li>
+                        <li class="nav-item"><a class="nav-link" href="sep.html">SEP</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="schedule.html">SCHEDULE</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contacts.html">CONTACTS</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+        <div class="container">
+            <select id="classxyz" onchange="readXML()" class="custom-select">
+                <option>Choose a Class</option>
+            </select>
+            <select id="weeks" onchange="readXML()" class="custom-select">
+                <option>Choose a Week</option>
+                <option class="test">49</option>
+                <option class="test">50</option>
+                <option class="test">51</option>
+                <option>52</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+            </select>
+                <button onclick="prevWeek()"><i class="fa-solid fa-arrow-left" ></i></button>
+                <button onclick="nextWeek()"><i class="fa-solid fa-arrow-right"></i></button>
+            <div class="table-responsive mt-5" id="tableContainer">
+                <table class="table table-bordered text-center">
+                    <thead class="align-middle">
+                        <tr class="">
+                            <th class="width100" id="weekcell">WEEK</th>
+                            <th class="width250">MON</th>
+                            <th class="width250">TUE</th>
+                            <th class="width250">WED</th>
+                            <th class="width250">THU</th>
+                            <th class="width250">FRI</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>8:20<br>9:05</td>
+                            <td id="MON820"></td>
+                            <td id="TUE820"></td>
+                            <td id="WED820"></td>
+                            <td id="THU820"></td>
+                            <td id="FRI820"></td>
+                        </tr>
+                        <tr>
+                            <td>9:10<br>9:55</td>
+                            <td id="MON910"></td>
+                            <td id="TUE910"></td>
+                            <td id="WED910"></td>
+                            <td id="THU910"></td>
+                            <td id="FRI910"></td>
+                        </tr>
+                        <tr>
+                            <td>10:15<br>11:00</td>
+                            <td id="MON1015"></td>
+                            <td id="TUE1015"></td>
+                            <td id="WED1015"></td>
+                            <td id="THU1015"></td>
+                            <td id="FRI1015"></td>
+                        </tr>
+                        <tr>
+                            <td>11:05<br>11:50</td>
+                            <td id="MON1105"></td>
+                            <td id="TUE1105"></td>
+                            <td id="WED1105"></td>
+                            <td id="THU1105"></td>
+                            <td id="FRI1105"></td>
+                        </tr>
+                        <tr>
+                            <td>11:55<br>12:40</td>
+                            <td id="MON1155"></td>
+                            <td id="TUE1155"></td>
+                            <td id="WED1155"></td>
+                            <td id="THU1155"></td>
+                            <td id="FRI1155"></td>
+                        </tr>
+                        <tr>
+                            <td>12:45<br>13:30</td>
+                            <td id="MON1245"></td>
+                            <td id="TUE1245"></td>
+                            <td id="WED1245"></td>
+                            <td id="THU1245"></td>
+                            <td id="FRI1245"></td>
+                        </tr>
+                        <tr>
+                            <td>13:35<br>14:20</td>
+                            <td id="MON1335"></td>
+                            <td id="TUE1335"></td>
+                            <td id="WED1335"></td>
+                            <td id="THU1335"></td>
+                            <td id="FRI1335"></td>
+                        </tr>
+                        <tr>
+                            <td>14:30<br>15:15</td>
+                            <td id="MON1430"></td>
+                            <td id="TUE1430"></td>
+                            <td id="WED1430"></td>
+                            <td id="THU1430"></td>
+                            <td id="FRI1430"></td>
+                        </tr>
+                        <tr>
+                            <td>15:20<br>16:05</td>
+                            <td id="MON1520"></td>
+                            <td id="TUE1520"></td>
+                            <td id="WED1520"></td>
+                            <td id="THU1520"></td>
+                            <td id="FRI1520"></td>
+                        </tr>
+                        <tr>
+                            <td>16:10<br>16:55</td>
+                            <td id="MON1610"></td>
+                            <td id="TUE1610"></td>
+                            <td id="WED1610"></td>
+                            <td id="THU1610"></td>
+                            <td id="FRI1610"></td>
+                        </tr>
+                        <tr>
+                            <td>17:00<br>17:45</td>
+                            <td id="MON1700"></td>
+                            <td id="TUE1700"></td>
+                            <td id="WED1700"></td>
+                            <td id="THU1700"></td>
+                            <td id="FRI1700"></td>
+                        </tr>
+                        <tr>
+                            <td>18:00<br>18:45</td>
+                            <td id="MON1800"></td>
+                            <td id="TUE1800"></td>
+                            <td id="WED1800"></td>
+                            <td id="THU1800"></td>
+                            <td id="FRI1800"></td>
+                        </tr>
+
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">RICARDO IS HEREE</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="https://c.tenor.com/Zji35A_QZt0AAAAd/pizza-ricardo-milos.gif" alt="RICARDO"
+                        style="width:100%" />
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">PIZZA</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid footer">
+        <footer class="row text-center text-white bg-dark">
+            <div class="text-center text-white p-3">
+                © 2021 Copyright:
+                <a class="text-white" data-bs-toggle="modal" data-bs-target="#exampleModal">DNFC</a>
+            </div>
+        </footer>
+    </div>
+</body>

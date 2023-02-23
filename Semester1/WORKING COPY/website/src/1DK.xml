@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<SessionList>
+  <sessionList>
+    <courseTitle>SDJ</courseTitle>
+    <sessionDate>
+      <month>12</month>
+      <year>2021</year>
+      <day>16</day>
+    </sessionDate>
+    <dayOfTheWeek>THU</dayOfTheWeek>
+    <numberOfLessons>4</numberOfLessons>
+    <startTime>
+      <hour>8</hour>
+      <minute>20</minute>
+    </startTime>
+    <classroom>
+      <isBookedWhen>
+        <date>
+          <month>12</month>
+          <year>2021</year>
+          <day>16</day>
+        </date>
+        <startTime>
+          <hour>8</hour>
+          <minute>20</minute>
+        </startTime>
+        <endTime>
+          <hour>11</hour>
+          <minute>50</minute>
+        </endTime>
+      </isBookedWhen>
+      <room>C05.15</room>
+      <capacity>45</capacity>
+    </classroom>
+    <endTime>
+      <hour>11</hour>
+      <minute>50</minute>
+    </endTime>
+    <lastEdited>
+      <month>12</month>
+      <year>2021</year>
+      <day>10</day>
+    </lastEdited>
+    <weekNumber>50</weekNumber>
+  </sessionList>
+</SessionList>

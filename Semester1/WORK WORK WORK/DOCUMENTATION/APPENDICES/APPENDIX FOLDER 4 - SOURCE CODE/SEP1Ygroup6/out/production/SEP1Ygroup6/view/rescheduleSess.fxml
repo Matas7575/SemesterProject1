@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="517.0" prefWidth="771.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.RescheduleSessController">
+   <children>
+      <Label text="RESCHEDULE OR CANCEL SESSION">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+         <VBox.margin>
+            <Insets bottom="20.0" />
+         </VBox.margin>
+      </Label>
+      <HBox alignment="CENTER" prefHeight="364.0" prefWidth="701.0">
+         <children>
+            <VBox alignment="TOP_CENTER" prefHeight="179.0" prefWidth="300.0" spacing="10.0">
+               <children>
+                  <HBox alignment="CENTER" prefHeight="37.0" prefWidth="300.0">
+                     <children>
+                        <VBox alignment="CENTER_LEFT" prefHeight="200.0" prefWidth="150.0">
+                           <children>
+                              <Label text="Semester">
+                                 <font>
+                                    <Font size="20.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                           <HBox.margin>
+                              <Insets left="20.0" />
+                           </HBox.margin>
+                        </VBox>
+                        <VBox alignment="CENTER_RIGHT" prefHeight="200.0" prefWidth="150.0">
+                           <children>
+                              <ChoiceBox fx:id="semesterChoice" prefWidth="100.0" />
+                           </children>
+                           <HBox.margin>
+                              <Insets right="20.0" />
+                           </HBox.margin>
+                        </VBox>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" prefHeight="37.0" prefWidth="300.0">
+                     <children>
+                        <VBox alignment="CENTER_LEFT" prefHeight="200.0" prefWidth="150.0">
+                           <children>
+                              <Label text="Class">
+                                 <font>
+                                    <Font size="20.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                           <HBox.margin>
+                              <Insets left="20.0" />
+                           </HBox.margin>
+                        </VBox>
+                        <VBox alignment="CENTER_RIGHT" prefHeight="200.0" prefWidth="150.0">
+                           <children>
+                              <ChoiceBox fx:id="classChoice" prefWidth="100.0" />
+                           </children>
+                           <HBox.margin>
+                              <Insets right="20.0" />
+                           </HBox.margin>
+                        </VBox>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" prefHeight="37.0" prefWidth="300.0">
+                     <children>
+                        <VBox alignment="CENTER_LEFT" prefHeight="200.0" prefWidth="100.0">
+                           <children>
+                              <Label text="Week">
+                                 <font>
+                                    <Font size="20.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                           <HBox.margin>
+                              <Insets left="20.0" />
+                           </HBox.margin>
+                        </VBox>
+                        <VBox alignment="CENTER_RIGHT" prefHeight="200.0" prefWidth="200.0">
+                           <children>
+                              <ChoiceBox fx:id="weekChoice" maxHeight="100.0" prefHeight="25.0" prefWidth="170.0" />
+                           </children>
+                           <HBox.margin>
+                              <Insets right="20.0" />
+                           </HBox.margin>
+                        </VBox>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" prefHeight="49.0" prefWidth="300.0" spacing="50.0">
+                     <children>
+                        <Button mnemonicParsing="false" onAction="#goBackPressed" text="Go back">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Button>
+                        <Button mnemonicParsing="false" onAction="#searchPressed" text="Search">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" prefHeight="48.0" prefWidth="300.0" spacing="20.0">
+                     <children>
+                        <Button mnemonicParsing="false" onAction="#cancelSessionPressed" text="Cancel session">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" prefHeight="48.0" prefWidth="300.0" spacing="20.0">
+                     <children>
+                        <Button mnemonicParsing="false" onAction="#rescheduleSelectedSessButtonPressed" text="Reschedule selected session">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </HBox>
+               </children>
+               <HBox.margin>
+                  <Insets right="20.0" top="25.0" />
+               </HBox.margin>
+            </VBox>
+            <ScrollPane prefHeight="364.0" prefWidth="402.0">
+               <content>
+                  <TableView fx:id="tableView" prefHeight="364.0" prefWidth="387.0">
+                     <columns>
+                        <TableColumn fx:id="dateColumn" prefWidth="78.0" text="Date" />
+                        <TableColumn fx:id="weekdayColumn" prefWidth="78.0" text="Weekday" />
+                        <TableColumn fx:id="startTimeColumn" prefWidth="78.0" text="Start Time" />
+                        <TableColumn fx:id="endTimeColumn" prefWidth="78.0" text="End Time" />
+                        <TableColumn fx:id="courseColumn" prefWidth="75.0" text="Course" />
+                     </columns>
+                  </TableView>
+               </content>
+            </ScrollPane>
+         </children>
+         <VBox.margin>
+            <Insets />
+         </VBox.margin>
+      </HBox>
+   </children>
+</VBox>

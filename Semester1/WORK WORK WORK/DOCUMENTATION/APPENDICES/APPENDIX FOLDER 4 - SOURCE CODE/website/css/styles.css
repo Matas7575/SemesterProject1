@@ -1,0 +1,187 @@
+
+#logo, #vialogo {
+    width: 200px;
+}
+
+.active { /* When you are in the page change that page's url on the navbar */
+  color: #ebb857 !important;
+  font-weight: bold;
+}
+/* Color Scheme */
+.lightgray{
+  color: #989b83;
+    }
+    
+.darkgray{
+     color: #1e1e1e;
+}
+.gray{
+  color: #645f54
+}
+  
+.blue{
+  color: #386187;
+}
+  
+.yellow{
+  color: #ebb857;
+}
+
+.blightgray{
+  background-color: #989b83;
+    }
+    
+.bdarkgray{
+  background-color: #1e1e1e;
+}
+.bgray{
+  background-color: #645f54
+}
+  
+.bblue{
+  background-color: #386187;
+}
+  
+.byellow{
+  background-color: #ebb857;
+}
+
+.bred{
+  background-color: #bd543a;
+}
+
+.cont{
+  background-color: #f4f2ef;
+}
+
+
+li a {
+    color: white; /* Text color  */
+    text-align: center; /* Text stays in the center  */
+    text-decoration: none; /* No default blue stuff */
+  }
+
+  li a:hover { 
+    background-color: #645f54; /* Change backgroudnd color when the mouse is hover */
+  }
+
+
+.card{
+  height: 200px;
+  overflow-y: auto;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+  background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+  background-color: #555;
+}
+
+.upcomingClass {
+  margin-top: 15px;
+  text-align: left;
+  padding: 3px 15px 3px 3px;
+  border-left: 7px solid #386187;
+  background-color: rgba(56, 97, 135, 0.1);
+}
+
+.upcomingClass p {
+  color: #645f54;
+  margin-bottom: 0;
+}
+
+.upcomingClass h3 {
+  color: #1e1e1e;
+}
+
+.mails {
+  text-decoration: none;
+  color:#ebb857;
+}
+
+#indicatorsCSS {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#myCarousel {
+  padding-bottom: 30px;
+}
+
+body, html {
+  height: 100%;
+}
+
+.content {
+  min-height: 100%;
+}
+
+.footer {
+  margin-top: -56px;
+}
+
+.hmm {
+  padding-bottom: 56px;
+}
+
+.width100 {
+  width: 100px;
+}
+
+.width250 {
+  width: 250px;
+}
+
+
+/* SELECT */
+
+select{
+  font-size: 15px;
+  padding: 5px 10px 5px 5px;
+  margin-top: 1%;
+  background: #212529;
+  color: white;
+  border: none;
+  
+}
+
+/* Week Buttons */
+
+.arrow {
+  cursor: pointer;
+  display: inline-block;  
+  height: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
+  position: relative;
+  line-height: 2.5em;
+  padding-left: 1em;
+  padding-right: 2em;
+  background: white;
+  color: black;
+}
+
+ button{  
+  background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+  font-size: 30px;  
+}
+ button span{
+  font-size: 20px;
+}

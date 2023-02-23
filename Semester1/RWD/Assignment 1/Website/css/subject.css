@@ -1,0 +1,381 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+/* Color Scheme */
+.lightgray {
+  color: #989b83;
+}
+
+.darkgray {
+  color: #1e1e1e;
+}
+
+.gray {
+  color: #645f54;
+}
+
+.blue {
+  color: #386187;
+}
+
+.yellow {
+  color: #ebb857;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  /*Good looking font  */
+}
+
+/* Navigation Bar */
+.nav {
+  height: 70px;
+  background-color: #1e1e1e;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+ul.nav {
+  list-style-type: none;
+  /* No points */
+  margin: 0;
+  padding: 0;
+  /* No margins/paddings so it's on top */
+  overflow: auto;
+  /* Fills everything  */
+  background-color: #1e1e1e;
+  /* Dark gray color */
+}
+
+li {
+  float: left;
+  /* Aligin items on left side of the navbar */
+  list-style-type: none;
+  /* No points */
+}
+
+li a {
+  display: block;
+  /* Looks normal */
+  color: white;
+  /* Text color  */
+  text-align: center;
+  /* Text stays in tge center  */
+  padding: 20px 26px;
+  /* Navbar's items "size" */
+  text-decoration: none;
+  /* No default blue shit */
+}
+
+li a:hover {
+  background-color: #645f54;
+  /* Change backgroudnd color when the mouse is hover */
+}
+
+.active {
+  /* When you are in the page change that page's url on the navbar */
+  color: #ebb857;
+  font-weight: bold;
+}
+
+.navbarlogo {
+  width: 200px;
+  /*Logo size for the navbar */
+  height: 54.84px;
+  margin-left: 10px;
+}
+
+.vialogo {
+  width: 200px;
+  height: 54.84px;
+  /*Logo size for the navbar */
+  margin-right: 10px;
+  /*Some margin so its looks good*/
+}
+
+h2 {
+  text-align: center;
+  /*Center Title*/
+  padding-top: 40px;
+}
+
+h1 {
+  text-align: left;
+  /*Center Title*/
+  padding: 30px 0px 0px 20px;
+  font-size: 43px;
+}
+
+/* Content */
+
+.content {
+  /*Defines all content space*/
+  display: flex;
+  flex-direction: column;
+  background: #F5F5F5;
+  height: 81%;
+  margin: 8px;
+  width: 75%;
+  float: left;
+}
+
+.content p {
+  margin-right: 20%;
+  margin-left: 25px;
+  margin-top: 15px;
+}
+
+.upcoming {
+  display: flex;
+  flex-direction: column;
+  background: #F5F5F5;
+  height: 81%;
+  width: 23.4%;
+  margin-top: 8px;
+  float: left;
+}
+
+.subjectImage {
+  height: 150px;
+  width: 150px;
+  position: absolute;
+  z-index: 10000;
+  left: 63%;
+  top: 100px
+}
+
+.subjectImage img {
+  height: 150px;
+  width: 150px;
+}
+
+div.sub {
+  /*Sub = Subjects*/
+  margin: 5px;
+  /*Looks good (spaces between subjcts)*/
+  text-align: center;
+  width: 300px;
+}
+
+
+div.sub img {
+  /*Defines every image of subjects so it looks the same*/
+  width: 100px;
+  height: auto;
+  text-align: center;
+}
+
+div.desc {
+  /*Sub = Subjects*/
+  text-align: center;
+}
+
+table {
+  padding-top: 30px;
+  /* So it's not close to the title */
+  margin: 0 auto;
+}
+
+table h3 {
+  /* Defines the subject title */
+  padding-top: 5px;
+  color: #1e1e1e;
+}
+
+
+table p {
+  margin-bottom: 50px;
+  /* Just here to create some space between top and bottom subjects */
+}
+
+/* Footer */
+.footer {
+  position: fixed;
+  /* It doesn't move, always on the bottom because on the two next lines */
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  /* Defines the size of the footer */
+  background-color: #1e1e1e;
+  color: white;
+  display: table;
+  /* Make easier to center the text (reltated to: "display: table-cell;" )*/
+}
+
+.footer p {
+  display: table-cell;
+  /* Explained above (line 132) */
+  vertical-align: middle;
+  text-align: center;
+}
+
+.footer a {
+  /* Anchor doesn't looks blue */
+  text-decoration: none;
+  color: #ebb857;
+}
+
+
+.demo {
+  margin-top: 60px;
+  margin-right: auto;
+  margin-left: auto;
+  height: 250px;
+  width: 250px;
+  border: 1px solid black;
+  border-collapse: collapse;
+  width: 400px;
+  height: 150px;
+}
+
+.demo th {
+  border: 1px solid black;
+  background: #F0F0F0;
+  width: 400px;
+  height: 150px;
+}
+
+.demo td {
+  border: 1px solid #C0C0C0;
+  text-align: center;
+  vertical-align: top;
+  padding: 20px 5px 5px 5px;
+  width: 400px;
+  height: 150px;
+}
+
+.title {
+  font-weight: bolder;
+  font-size: 30px;
+  color: #1e1e1e;
+}
+
+.upcomingClass {
+  margin-top: 15px;
+  color: black;
+  text-align: left;
+  padding: 3px 15px 3px 3px;
+  border-left: 7px solid #386187;
+  background-color: rgba(56, 97, 135, 0.1);
+}
+
+.upcomingClass p {
+  color: #645f54;
+}
+
+.upcomingClass h3 {
+  color: #1e1e1e;
+}
+
+.fix {
+  width: 400px;
+  height: 150px;
+}
+
+.scroll {
+  width: 400px;
+  height: 150px;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+.textInfo {
+  margin-top: 4px;
+  text-align: center;
+}
+
+
+
+.list li {
+  list-style-type: disc;
+  margin-left: 30px;
+  text-align: left;
+}
+
+ul.list {
+  list-style-type: disc;
+  background-color: #F5F5F5;
+  color: black;
+
+}
+
+
+h4 {
+  font-weight: bold;
+}
+
+.noPoints {
+  list-style-type: none;
+}
+
+td h1 {
+  text-align: center;
+  font-size: 40px;
+  padding: 15px 0 0 0;
+}
+
+
+/*
+   https://codepen.io/GhostRider/pen/GHaFw
+ */
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+  background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+  background-color: #555;
+}
+
+
+.goto {
+  color: white !important;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+  background: #ffffff;
+  margin: 50px 70px 0 70px;
+  padding: 20px;
+  border: 3px solid #386187 !important;
+  display: inline-block;
+  border-color: #ebb857 !important;
+  border-radius: 7px;
+  background: #ebb857;
+  transition: 0.3s;
+}
+
+
+.goto:hover {
+  color: #ffffff !important;
+  background: #386187;
+  border-color: #386187 !important;
+  transition: 0.3s;
+}
+
+.waly{
+  opacity: 0;
+  left: 652px;
+  top: 300px;
+  position: absolute;
+  width: 50px;
+}
+
+.waly:hover{
+  opacity: 1;
+}

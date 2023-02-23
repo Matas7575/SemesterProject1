@@ -1,0 +1,2784 @@
+{
+  "fileManager": {},
+  "allClassrooms": {
+    "classroomList": [
+      {
+        "room": "C05.15",
+        "capacity": 45,
+        "isBookedWhen": [
+          {
+            "date": {
+              "day": 13,
+              "month": 12,
+              "year": 2021
+            },
+            "startTime": {
+              "hour": 9,
+              "minute": 10
+            },
+            "endTime": {
+              "hour": 11,
+              "minute": 50
+            }
+          },
+          {
+            "date": {
+              "day": 13,
+              "month": 12,
+              "year": 2021
+            },
+            "startTime": {
+              "hour": 11,
+              "minute": 55
+            },
+            "endTime": {
+              "hour": 13,
+              "minute": 30
+            }
+          },
+          {
+            "date": {
+              "day": 13,
+              "month": 12,
+              "year": 2021
+            },
+            "startTime": {
+              "hour": 14,
+              "minute": 30
+            },
+            "endTime": {
+              "hour": 15,
+              "minute": 15
+            }
+          },
+          {
+            "date": {
+              "day": 14,
+              "month": 12,
+              "year": 2021
+            },
+            "startTime": {
+              "hour": 8,
+              "minute": 20
+            },
+            "endTime": {
+              "hour": 13,
+              "minute": 30
+            }
+          },
+          {
+            "date": {
+              "day": 15,
+              "month": 12,
+              "year": 2021
+            },
+            "startTime": {
+              "hour": 8,
+              "minute": 20
+            },
+            "endTime": {
+              "hour": 11,
+              "minute": 50
+            }
+          },
+          {
+            "date": {
+              "day": 15,
+              "month": 12,
+              "year": 2021
+            },
+            "startTime": {
+              "hour": 12,
+              "minute": 45
+            },
+            "endTime": {
+              "hour": 14,
+              "minute": 20
+            }
+          },
+          {
+            "date": {
+              "day": 16,
+              "month": 12,
+              "year": 2021
+            },
+            "startTime": {
+              "hour": 8,
+              "minute": 20
+            },
+            "endTime": {
+              "hour": 13,
+              "minute": 30
+            }
+          }
+        ]
+      },
+      {
+        "room": "C05.16a",
+        "capacity": 45,
+        "isBookedWhen": [
+          {
+            "date": {
+              "day": 15,
+              "month": 12,
+              "year": 2021
+            },
+            "startTime": {
+              "hour": 14,
+              "minute": 30
+            },
+            "endTime": {
+              "hour": 15,
+              "minute": 15
+            }
+          }
+        ]
+      },
+      {
+        "room": "C05.16b",
+        "capacity": 45,
+        "isBookedWhen": []
+      },
+      {
+        "room": "C03.12",
+        "capacity": 20,
+        "isBookedWhen": []
+      },
+      {
+        "room": "C03.13",
+        "capacity": 125,
+        "isBookedWhen": []
+      }
+    ]
+  },
+  "allTeachers": {
+    "teachers": [
+      {
+        "viaID": "ALHE"
+      },
+      {
+        "viaID": "SVA"
+      },
+      {
+        "viaID": "KLAB"
+      },
+      {
+        "viaID": "MIVI"
+      },
+      {
+        "viaID": "KASR"
+      },
+      {
+        "viaID": "LILE"
+      },
+      {
+        "viaID": "AHAN"
+      },
+      {
+        "viaID": "RIB"
+      },
+      {
+        "viaID": "IOOD"
+      },
+      {
+        "viaID": "MWA"
+      },
+      {
+        "viaID": "HEKP"
+      },
+      {
+        "viaID": "TRMO"
+      }
+    ]
+  },
+  "allStudents": {
+    "students": [
+      {
+        "name": "Abraham Jackson",
+        "semester": 1,
+        "classxyz": "X",
+        "viaID": "667345",
+        "courseList": {
+          "semester": 1,
+          "classxyz": "X",
+          "isPersonal": false,
+          "courses": [
+            {
+              "title": "SDJ",
+              "semester": 1,
+              "classxyz": "X",
+              "ectsPoints": 10,
+              "teacher": {
+                "viaID": "ALHE"
+              },
+              "sessionList": {
+                "sessionList": [
+                  {
+                    "dayOfTheWeek": "MON",
+                    "numberOfLessons": 3,
+                    "courseTitle": "SDJ",
+                    "startTime": {
+                      "hour": 9,
+                      "minute": 10
+                    },
+                    "endTime": {
+                      "hour": 11,
+                      "minute": 50
+                    },
+                    "lastEdited": {
+                      "year": 2021,
+                      "month": 12,
+                      "day": 12
+                    },
+                    "sessionDate": {
+                      "day": 13,
+                      "month": 12,
+                      "year": 2021
+                    },
+                    "weekNumber": 50,
+                    "classroom": {
+                      "room": "C05.15",
+                      "capacity": 45,
+                      "isBookedWhen": [
+                        {
+                          "date": {
+                            "day": 13,
+                            "month": 12,
+                            "year": 2021
+                          },
+                          "startTime": {
+                            "hour": 9,
+                            "minute": 10
+                          },
+                          "endTime": {
+                            "hour": 11,
+                            "minute": 50
+                          }
+                        },
+                        {
+                          "date": {
+                            "day": 13,
+                            "month": 12,
+                            "year": 2021
+                          },
+                          "startTime": {
+                            "hour": 11,
+                            "minute": 55
+                          },
+                          "endTime": {
+                            "hour": 13,
+                            "minute": 30
+                          }
+                        },
+                        {
+                          "date": {
+                            "day": 13,
+                            "month": 12,
+                            "year": 2021
+                          },
+                          "startTime": {
+                            "hour": 14,
+                            "minute": 30
+                          },
+                          "endTime": {
+                            "hour": 15,
+                            "minute": 15
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "RWD",
+              "semester": 1,
+              "classxyz": "X",
+              "ectsPoints": 5,
+              "teacher": {
+                "viaID": "KASR"
+              },
+              "sessionList": {
+                "sessionList": [
+                  {
+                    "dayOfTheWeek": "MON",
+                    "numberOfLessons": 2,
+                    "courseTitle": "RWD",
+                    "startTime": {
+                      "hour": 11,
+                      "minute": 55
+                    },
+                    "endTime": {
+                      "hour": 13,
+                      "minute": 30
+                    },
+                    "lastEdited": {
+                      "year": 2021,
+                      "month": 12,
+                      "day": 12
+                    },
+                    "sessionDate": {
+                      "day": 13,
+                      "month": 12,
+                      "year": 2021
+                    },
+                    "weekNumber": 50,
+                    "classroom": {
+                      "room": "C05.15",
+                      "capacity": 45,
+                      "isBookedWhen": [
+                        {
+                          "date": {
+                            "day": 13,
+                            "month": 12,
+                            "year": 2021
+                          },
+                          "startTime": {
+                            "hour": 9,
+                            "minute": 10
+                          },
+                          "endTime": {
+                            "hour": 11,
+                            "minute": 50
+                          }
+                        },
+                        {
+                          "date": {
+                            "day": 13,
+                            "month": 12,
+                            "year": 2021
+                          },
+                          "startTime": {
+                            "hour": 11,
+                            "minute": 55
+                          },
+                          "endTime": {
+                            "hour": 13,
+                            "minute": 30
+                          }
+                        },
+                        {
+                          "date": {
+                            "day": 13,
+                            "month": 12,
+                            "year": 2021
+                          },
+                          "startTime": {
+                            "hour": 14,
+                            "minute": 30
+                          },
+                          "endTime": {
+                            "hour": 15,
+                            "minute": 15
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "DMA",
+              "semester": 1,
+              "classxyz": "X",
+              "ectsPoints": 5,
+              "teacher": {
+                "viaID": "RIB"
+              },
+              "sessionList": {
+                "sessionList": [
+                  {
+                    "dayOfTheWeek": "MON",
+                    "numberOfLessons": 1,
+                    "courseTitle": "DMA",
+                    "startTime": {
+                      "hour": 14,
+                      "minute": 30
+                    },
+                    "endTime": {
+                      "hour": 15,
+                      "minute": 15
+                    },
+                    "lastEdited": {
+                      "year": 2021,
+                      "month": 12,
+                      "day": 12
+                    },
+                    "sessionDate": {
+                      "day": 13,
+                      "month": 12,
+                      "year": 2021
+                    },
+                    "weekNumber": 50,
+                    "classroom": {
+                      "room": "C05.15",
+                      "capacity": 45,
+                      "isBookedWhen": [
+                        {
+                          "date": {
+                            "day": 13,
+                            "month": 12,
+                            "year": 2021
+                          },
+                          "startTime": {
+                            "hour": 9,
+                            "minute": 10
+                          },
+                          "endTime": {
+                            "hour": 11,
+                            "minute": 50
+                          }
+                        },
+                        {
+                          "date": {
+                            "day": 13,
+                            "month": 12,
+                            "year": 2021
+                          },
+                          "startTime": {
+                            "hour": 11,
+                            "minute": 55
+                          },
+                          "endTime": {
+                            "hour": 13,
+                            "minute": 30
+                          }
+                        },
+                        {
+                          "date": {
+                            "day": 13,
+                            "month": 12,
+                            "year": 2021
+                          },
+                          "startTime": {
+                            "hour": 14,
+                            "minute": 30
+                          },
+                          "endTime": {
+                            "hour": 15,
+                            "minute": 15
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "SEP",
+              "semester": 1,
+              "classxyz": "X",
+              "ectsPoints": 10,
+              "teacher": {
+                "viaID": "ALHE"
+              },
+              "sessionList": {
+                "sessionList": []
+              }
+            },
+            {
+              "title": "SEP",
+              "semester": 1,
+              "classxyz": "X",
+              "ectsPoints": 10,
+              "teacher": {
+                "viaID": "MWA"
+              },
+              "sessionList": {
+                "sessionList": []
+              }
+            }
+          ]
+        }
+      },
+      {
+        "name": "Brian Nielsen",
+        "semester": 1,
+        "classxyz": "X",
+        "viaID": "667346",
+        "courseList": {
+          "semester": 1,
+          "classxyz": "X",
+          "isPersonal": false,
+          "courses": [
+            {
+              "title": "SDJ",
+              "semester": 1,
+              "classxyz": "X",
+              "ectsPoints": 10,
+              "teacher": {
+                "viaID": "ALHE"
+              },
+              "sessionList": {
+                "sessionList": [
+                  {
+                    "dayOfTheWeek": "MON",
+                    "numberOfLessons": 3,
+                    "courseTitle": "SDJ",
+                    "startTime": {
+                      "hour": 9,
+                      "minute": 10
+                    },
+                    "endTime": {
+                      "hour": 11,
+                      "minute": 50
+                    },
+                    "lastEdited": {
+                      "year": 2021,
+                      "month": 12,
+                      "day": 12
+                    },
+                    "sessionDate": {
+                      "day": 13,
+                      "month": 12,
+                      "year": 2021
+                    },
+                    "weekNumber": 50,
+                    "classroom": {
+                      "room": "C05.15",
+                      "capacity": 45,
+                      "isBookedWhen": [
+                        {
+                          "date": {
+                            "day": 13,
+                            "month": 12,
+                            "year": 2021
+                          },
+                          "startTime": {
+                            "hour": 9,
+                            "minute": 10
+                          },
+                          "endTime": {
+                            "hour": 11,
+                            "minute": 50
+                          }
+                        },
+                        {
+                          "date": {
+                            "day": 13,
+                            "month": 12,
+                            "year": 2021
+                          },
+                          "startTime": {
+                            "hour": 11,
+                            "minute": 55
+                          },
+                          "endTime": {
+                            "hour": 13,
+                            "minute": 30
+                          }
+                        },
+                        {
+                          "date": {
+                            "day": 13,
+                            "month": 12,
+                            "year": 2021
+                          },
+                          "startTime": {
+                            "hour": 14,
+                            "minute": 30
+                          },
+                          "endTime": {
+                            "hour": 15,
+                            "minute": 15
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "RWD",
+              "semester": 1,
+              "classxyz": "X",
+              "ectsPoints": 5,
+              "teacher": {
+                "viaID": "KASR"
+              },
+              "sessionList": {
+                "sessionList": [
+                  {
+                    "dayOfTheWeek": "MON",
+                    "numberOfLessons": 2,
+                    "courseTitle": "RWD",
+                    "startTime": {
+                      "hour": 11,
+                      "minute": 55
+                    },
+                    "endTime": {
+                      "hour": 13,
+                      "minute": 30
+                    },
+                    "lastEdited": {
+                      "year": 2021,
+                      "month": 12,
+                      "day": 12
+                    },
+                    "sessionDate": {
+                      "day": 13,
+                      "month": 12,
+                      "year": 2021
+                    },
+                    "weekNumber": 50,
+                    "classroom": {
+                      "room": "C05.15",
+                      "capacity": 45,
+                      "isBookedWhen": [
+                        {
+                          "date": {
+                            "day": 13,
+                            "month": 12,
+                            "year": 2021
+                          },
+                          "startTime": {
+                            "hour": 9,
+                            "minute": 10
+                          },
+                          "endTime": {
+                            "hour": 11,
+                            "minute": 50
+                          }
+                        },
+                        {
+                          "date": {
+                            "day": 13,
+                            "month": 12,
+                            "year": 2021
+                          },
+                          "startTime": {
+                            "hour": 11,
+                            "minute": 55
+                          },
+                          "endTime": {
+                            "hour": 13,
+                            "minute": 30
+                          }
+                        },
+                        {
+                          "date": {
+                            "day": 13,
+                            "month": 12,
+                            "year": 2021
+                          },
+                          "startTime": {
+                            "hour": 14,
+                            "minute": 30
+                          },
+                          "endTime": {
+                            "hour": 15,
+                            "minute": 15
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "DMA",
+              "semester": 1,
+              "classxyz": "X",
+              "ectsPoints": 5,
+              "teacher": {
+                "viaID": "RIB"
+              },
+              "sessionList": {
+                "sessionList": [
+                  {
+                    "dayOfTheWeek": "MON",
+                    "numberOfLessons": 1,
+                    "courseTitle": "DMA",
+                    "startTime": {
+                      "hour": 14,
+                      "minute": 30
+                    },
+                    "endTime": {
+                      "hour": 15,
+                      "minute": 15
+                    },
+                    "lastEdited": {
+                      "year": 2021,
+                      "month": 12,
+                      "day": 12
+                    },
+                    "sessionDate": {
+                      "day": 13,
+                      "month": 12,
+                      "year": 2021
+                    },
+                    "weekNumber": 50,
+                    "classroom": {
+                      "room": "C05.15",
+                      "capacity": 45,
+                      "isBookedWhen": [
+                        {
+                          "date": {
+                            "day": 13,
+                            "month": 12,
+                            "year": 2021
+                          },
+                          "startTime": {
+                            "hour": 9,
+                            "minute": 10
+                          },
+                          "endTime": {
+                            "hour": 11,
+                            "minute": 50
+                          }
+                        },
+                        {
+                          "date": {
+                            "day": 13,
+                            "month": 12,
+                            "year": 2021
+                          },
+                          "startTime": {
+                            "hour": 11,
+                            "minute": 55
+                          },
+                          "endTime": {
+                            "hour": 13,
+                            "minute": 30
+                          }
+                        },
+                        {
+                          "date": {
+                            "day": 13,
+                            "month": 12,
+                            "year": 2021
+                          },
+                          "startTime": {
+                            "hour": 14,
+                            "minute": 30
+                          },
+                          "endTime": {
+                            "hour": 15,
+                            "minute": 15
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "SEP",
+              "semester": 1,
+              "classxyz": "X",
+              "ectsPoints": 10,
+              "teacher": {
+                "viaID": "ALHE"
+              },
+              "sessionList": {
+                "sessionList": []
+              }
+            },
+            {
+              "title": "SEP",
+              "semester": 1,
+              "classxyz": "X",
+              "ectsPoints": 10,
+              "teacher": {
+                "viaID": "MWA"
+              },
+              "sessionList": {
+                "sessionList": []
+              }
+            }
+          ]
+        }
+      },
+      {
+        "name": "Christina Lana",
+        "semester": 1,
+        "classxyz": "Y",
+        "viaID": "667347",
+        "courseList": {
+          "semester": 1,
+          "classxyz": "Y",
+          "isPersonal": false,
+          "courses": [
+            {
+              "title": "SDJ",
+              "semester": 1,
+              "classxyz": "Y",
+              "ectsPoints": 10,
+              "teacher": {
+                "viaID": "SVA"
+              },
+              "sessionList": {
+                "sessionList": []
+              }
+            },
+            {
+              "title": "RWD",
+              "semester": 1,
+              "classxyz": "Y",
+              "ectsPoints": 5,
+              "teacher": {
+                "viaID": "LILE"
+              },
+              "sessionList": {
+                "sessionList": []
+              }
+            },
+            {
+              "title": "DMA",
+              "semester": 1,
+              "classxyz": "Y",
+              "ectsPoints": 5,
+              "teacher": {
+                "viaID": "RIB"
+              },
+              "sessionList": {
+                "sessionList": []
+              }
+            },
+            {
+              "title": "SEP",
+              "semester": 1,
+              "classxyz": "Y",
+              "ectsPoints": 10,
+              "teacher": {
+                "viaID": "SVA"
+              },
+              "sessionList": {
+                "sessionList": []
+              }
+            },
+            {
+              "title": "SEP",
+              "semester": 1,
+              "classxyz": "Y",
+              "ectsPoints": 10,
+              "teacher": {
+                "viaID": "MWA"
+              },
+              "sessionList": {
+                "sessionList": []
+              }
+            }
+          ]
+        }
+      },
+      {
+        "name": "Dennis Kolin",
+        "semester": 1,
+        "classxyz": "Y",
+        "viaID": "667465",
+        "courseList": {
+          "semester": 1,
+          "classxyz": "Y",
+          "isPersonal": false,
+          "courses": [
+            {
+              "title": "SDJ",
+              "semester": 1,
+              "classxyz": "Y",
+              "ectsPoints": 10,
+              "teacher": {
+                "viaID": "SVA"
+              },
+              "sessionList": {
+                "sessionList": []
+              }
+            },
+            {
+              "title": "RWD",
+              "semester": 1,
+              "classxyz": "Y",
+              "ectsPoints": 5,
+              "teacher": {
+                "viaID": "LILE"
+              },
+              "sessionList": {
+                "sessionList": []
+              }
+            },
+            {
+              "title": "DMA",
+              "semester": 1,
+              "classxyz": "Y",
+              "ectsPoints": 5,
+              "teacher": {
+                "viaID": "RIB"
+              },
+              "sessionList": {
+                "sessionList": []
+              }
+            },
+            {
+              "title": "SEP",
+              "semester": 1,
+              "classxyz": "Y",
+              "ectsPoints": 10,
+              "teacher": {
+                "viaID": "SVA"
+              },
+              "sessionList": {
+                "sessionList": []
+              }
+            },
+            {
+              "title": "SEP",
+              "semester": 1,
+              "classxyz": "Y",
+              "ectsPoints": 10,
+              "teacher": {
+                "viaID": "MWA"
+              },
+              "sessionList": {
+                "sessionList": []
+              }
+            }
+          ]
+        }
+      },
+      {
+        "name": "Eric Lynn",
+        "semester": 1,
+        "classxyz": "Y",
+        "viaID": "667469",
+        "courseList": {
+          "semester": 1,
+          "classxyz": "Y",
+          "isPersonal": false,
+          "courses": [
+            {
+              "title": "SDJ",
+              "semester": 1,
+              "classxyz": "Y",
+              "ectsPoints": 10,
+              "teacher": {
+                "viaID": "SVA"
+              },
+              "sessionList": {
+                "sessionList": []
+              }
+            },
+            {
+              "title": "RWD",
+              "semester": 1,
+              "classxyz": "Y",
+              "ectsPoints": 5,
+              "teacher": {
+                "viaID": "LILE"
+              },
+              "sessionList": {
+                "sessionList": []
+              }
+            },
+            {
+              "title": "DMA",
+              "semester": 1,
+              "classxyz": "Y",
+              "ectsPoints": 5,
+              "teacher": {
+                "viaID": "RIB"
+              },
+              "sessionList": {
+                "sessionList": []
+              }
+            },
+            {
+              "title": "SEP",
+              "semester": 1,
+              "classxyz": "Y",
+              "ectsPoints": 10,
+              "teacher": {
+                "viaID": "SVA"
+              },
+              "sessionList": {
+                "sessionList": []
+              }
+            },
+            {
+              "title": "SEP",
+              "semester": 1,
+              "classxyz": "Y",
+              "ectsPoints": 10,
+              "teacher": {
+                "viaID": "MWA"
+              },
+              "sessionList": {
+                "sessionList": []
+              }
+            }
+          ]
+        }
+      },
+      {
+        "name": "Franck Thomson",
+        "semester": 1,
+        "classxyz": "Y",
+        "viaID": "667554",
+        "courseList": {
+          "semester": 1,
+          "classxyz": "Y",
+          "isPersonal": false,
+          "courses": [
+            {
+              "title": "SDJ",
+              "semester": 1,
+              "classxyz": "Y",
+              "ectsPoints": 10,
+              "teacher": {
+                "viaID": "SVA"
+              },
+              "sessionList": {
+                "sessionList": []
+              }
+            },
+            {
+              "title": "RWD",
+              "semester": 1,
+              "classxyz": "Y",
+              "ectsPoints": 5,
+              "teacher": {
+                "viaID": "LILE"
+              },
+              "sessionList": {
+                "sessionList": []
+              }
+            },
+            {
+              "title": "DMA",
+              "semester": 1,
+              "classxyz": "Y",
+              "ectsPoints": 5,
+              "teacher": {
+                "viaID": "RIB"
+              },
+              "sessionList": {
+                "sessionList": []
+              }
+            },
+            {
+              "title": "SEP",
+              "semester": 1,
+              "classxyz": "Y",
+              "ectsPoints": 10,
+              "teacher": {
+                "viaID": "SVA"
+              },
+              "sessionList": {
+                "sessionList": []
+              }
+            },
+            {
+              "title": "SEP",
+              "semester": 1,
+              "classxyz": "Y",
+              "ectsPoints": 10,
+              "teacher": {
+                "viaID": "MWA"
+              },
+              "sessionList": {
+                "sessionList": []
+              }
+            }
+          ]
+        }
+      },
+      {
+        "name": "Gregor Gori",
+        "semester": 1,
+        "classxyz": "Y",
+        "viaID": "667555",
+        "courseList": {
+          "semester": 1,
+          "classxyz": "Y",
+          "isPersonal": false,
+          "courses": [
+            {
+              "title": "SDJ",
+              "semester": 1,
+              "classxyz": "Y",
+              "ectsPoints": 10,
+              "teacher": {
+                "viaID": "SVA"
+              },
+              "sessionList": {
+                "sessionList": []
+              }
+            },
+            {
+              "title": "RWD",
+              "semester": 1,
+              "classxyz": "Y",
+              "ectsPoints": 5,
+              "teacher": {
+                "viaID": "LILE"
+              },
+              "sessionList": {
+                "sessionList": []
+              }
+            },
+            {
+              "title": "DMA",
+              "semester": 1,
+              "classxyz": "Y",
+              "ectsPoints": 5,
+              "teacher": {
+                "viaID": "RIB"
+              },
+              "sessionList": {
+                "sessionList": []
+              }
+            },
+            {
+              "title": "SEP",
+              "semester": 1,
+              "classxyz": "Y",
+              "ectsPoints": 10,
+              "teacher": {
+                "viaID": "SVA"
+              },
+              "sessionList": {
+                "sessionList": []
+              }
+            },
+            {
+              "title": "SEP",
+              "semester": 1,
+              "classxyz": "Y",
+              "ectsPoints": 10,
+              "teacher": {
+                "viaID": "MWA"
+              },
+              "sessionList": {
+                "sessionList": []
+              }
+            }
+          ]
+        }
+      },
+      {
+        "name": "Helly Hansen",
+        "semester": 1,
+        "classxyz": "Z",
+        "viaID": "667556",
+        "courseList": {
+          "semester": 1,
+          "classxyz": "Z",
+          "isPersonal": false,
+          "courses": [
+            {
+              "title": "SDJ",
+              "semester": 1,
+              "classxyz": "Z",
+              "ectsPoints": 10,
+              "teacher": {
+                "viaID": "SVA"
+              },
+              "sessionList": {
+                "sessionList": []
+              }
+            },
+            {
+              "title": "SDJ",
+              "semester": 1,
+              "classxyz": "Z",
+              "ectsPoints": 10,
+              "teacher": {
+                "viaID": "KLAB"
+              },
+              "sessionList": {
+                "sessionList": []
+              }
+            },
+            {
+              "title": "RWD",
+              "semester": 1,
+              "classxyz": "Z",
+              "ectsPoints": 5,
+              "teacher": {
+                "viaID": "LILE"
+              },
+              "sessionList": {
+                "sessionList": []
+              }
+            },
+            {
+              "title": "DMA",
+              "semester": 1,
+              "classxyz": "Z",
+              "ectsPoints": 5,
+              "teacher": {
+                "viaID": "IOOD"
+              },
+              "sessionList": {
+                "sessionList": []
+              }
+            },
+            {
+              "title": "SEP",
+              "semester": 1,
+              "classxyz": "Z",
+              "ectsPoints": 10,
+              "teacher": {
+                "viaID": "SVA"
+              },
+              "sessionList": {
+                "sessionList": []
+              }
+            },
+            {
+              "title": "SEP",
+              "semester": 1,
+              "classxyz": "Z",
+              "ectsPoints": 10,
+              "teacher": {
+                "viaID": "MWA"
+              },
+              "sessionList": {
+                "sessionList": []
+              }
+            }
+          ]
+        }
+      },
+      {
+        "name": "Ion Brick",
+        "semester": 1,
+        "classxyz": "Z",
+        "viaID": "667578",
+        "courseList": {
+          "semester": 1,
+          "classxyz": "Z",
+          "isPersonal": false,
+          "courses": [
+            {
+              "title": "SDJ",
+              "semester": 1,
+              "classxyz": "Z",
+              "ectsPoints": 10,
+              "teacher": {
+                "viaID": "SVA"
+              },
+              "sessionList": {
+                "sessionList": []
+              }
+            },
+            {
+              "title": "SDJ",
+              "semester": 1,
+              "classxyz": "Z",
+              "ectsPoints": 10,
+              "teacher": {
+                "viaID": "KLAB"
+              },
+              "sessionList": {
+                "sessionList": []
+              }
+            },
+            {
+              "title": "RWD",
+              "semester": 1,
+              "classxyz": "Z",
+              "ectsPoints": 5,
+              "teacher": {
+                "viaID": "LILE"
+              },
+              "sessionList": {
+                "sessionList": []
+              }
+            },
+            {
+              "title": "DMA",
+              "semester": 1,
+              "classxyz": "Z",
+              "ectsPoints": 5,
+              "teacher": {
+                "viaID": "IOOD"
+              },
+              "sessionList": {
+                "sessionList": []
+              }
+            },
+            {
+              "title": "SEP",
+              "semester": 1,
+              "classxyz": "Z",
+              "ectsPoints": 10,
+              "teacher": {
+                "viaID": "SVA"
+              },
+              "sessionList": {
+                "sessionList": []
+              }
+            },
+            {
+              "title": "SEP",
+              "semester": 1,
+              "classxyz": "Z",
+              "ectsPoints": 10,
+              "teacher": {
+                "viaID": "MWA"
+              },
+              "sessionList": {
+                "sessionList": []
+              }
+            }
+          ]
+        }
+      },
+      {
+        "name": "Julia Schwartz",
+        "semester": 1,
+        "classxyz": "Z",
+        "viaID": "667590",
+        "courseList": {
+          "semester": 1,
+          "classxyz": "Z",
+          "isPersonal": false,
+          "courses": [
+            {
+              "title": "SDJ",
+              "semester": 1,
+              "classxyz": "Z",
+              "ectsPoints": 10,
+              "teacher": {
+                "viaID": "SVA"
+              },
+              "sessionList": {
+                "sessionList": []
+              }
+            },
+            {
+              "title": "SDJ",
+              "semester": 1,
+              "classxyz": "Z",
+              "ectsPoints": 10,
+              "teacher": {
+                "viaID": "KLAB"
+              },
+              "sessionList": {
+                "sessionList": []
+              }
+            },
+            {
+              "title": "RWD",
+              "semester": 1,
+              "classxyz": "Z",
+              "ectsPoints": 5,
+              "teacher": {
+                "viaID": "LILE"
+              },
+              "sessionList": {
+                "sessionList": []
+              }
+            },
+            {
+              "title": "DMA",
+              "semester": 1,
+              "classxyz": "Z",
+              "ectsPoints": 5,
+              "teacher": {
+                "viaID": "IOOD"
+              },
+              "sessionList": {
+                "sessionList": []
+              }
+            },
+            {
+              "title": "SEP",
+              "semester": 1,
+              "classxyz": "Z",
+              "ectsPoints": 10,
+              "teacher": {
+                "viaID": "SVA"
+              },
+              "sessionList": {
+                "sessionList": []
+              }
+            },
+            {
+              "title": "SEP",
+              "semester": 1,
+              "classxyz": "Z",
+              "ectsPoints": 10,
+              "teacher": {
+                "viaID": "MWA"
+              },
+              "sessionList": {
+                "sessionList": []
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "allCourseLists": {
+    "list": [
+      {
+        "semester": 2,
+        "classxyz": "X",
+        "isPersonal": false,
+        "courses": [
+          {
+            "title": "SEP",
+            "semester": 2,
+            "classxyz": "X",
+            "ectsPoints": 10,
+            "teacher": {
+              "viaID": "HEKP"
+            },
+            "sessionList": {
+              "sessionList": []
+            }
+          },
+          {
+            "title": "SEP",
+            "semester": 2,
+            "classxyz": "X",
+            "ectsPoints": 10,
+            "teacher": {
+              "viaID": "TRMO"
+            },
+            "sessionList": {
+              "sessionList": []
+            }
+          }
+        ]
+      },
+      {
+        "semester": 1,
+        "classxyz": "X",
+        "isPersonal": false,
+        "courses": [
+          {
+            "title": "SDJ",
+            "semester": 1,
+            "classxyz": "X",
+            "ectsPoints": 10,
+            "teacher": {
+              "viaID": "ALHE"
+            },
+            "sessionList": {
+              "sessionList": [
+                {
+                  "dayOfTheWeek": "MON",
+                  "numberOfLessons": 3,
+                  "courseTitle": "SDJ",
+                  "startTime": {
+                    "hour": 9,
+                    "minute": 10
+                  },
+                  "endTime": {
+                    "hour": 11,
+                    "minute": 50
+                  },
+                  "lastEdited": {
+                    "year": 2021,
+                    "month": 12,
+                    "day": 12
+                  },
+                  "sessionDate": {
+                    "day": 13,
+                    "month": 12,
+                    "year": 2021
+                  },
+                  "weekNumber": 50,
+                  "classroom": {
+                    "room": "C05.15",
+                    "capacity": 45,
+                    "isBookedWhen": [
+                      {
+                        "date": {
+                          "day": 13,
+                          "month": 12,
+                          "year": 2021
+                        },
+                        "startTime": {
+                          "hour": 9,
+                          "minute": 10
+                        },
+                        "endTime": {
+                          "hour": 11,
+                          "minute": 50
+                        }
+                      },
+                      {
+                        "date": {
+                          "day": 13,
+                          "month": 12,
+                          "year": 2021
+                        },
+                        "startTime": {
+                          "hour": 11,
+                          "minute": 55
+                        },
+                        "endTime": {
+                          "hour": 13,
+                          "minute": 30
+                        }
+                      },
+                      {
+                        "date": {
+                          "day": 13,
+                          "month": 12,
+                          "year": 2021
+                        },
+                        "startTime": {
+                          "hour": 14,
+                          "minute": 30
+                        },
+                        "endTime": {
+                          "hour": 15,
+                          "minute": 15
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "dayOfTheWeek": "WED",
+                  "numberOfLessons": 4,
+                  "courseTitle": "SDJ",
+                  "startTime": {
+                    "hour": 8,
+                    "minute": 20
+                  },
+                  "endTime": {
+                    "hour": 11,
+                    "minute": 50
+                  },
+                  "lastEdited": {
+                    "year": 2021,
+                    "month": 12,
+                    "day": 12
+                  },
+                  "sessionDate": {
+                    "day": 15,
+                    "month": 12,
+                    "year": 2021
+                  },
+                  "weekNumber": 50,
+                  "classroom": {
+                    "room": "C05.15",
+                    "capacity": 45,
+                    "isBookedWhen": [
+                      {
+                        "date": {
+                          "day": 13,
+                          "month": 12,
+                          "year": 2021
+                        },
+                        "startTime": {
+                          "hour": 9,
+                          "minute": 10
+                        },
+                        "endTime": {
+                          "hour": 11,
+                          "minute": 50
+                        }
+                      },
+                      {
+                        "date": {
+                          "day": 13,
+                          "month": 12,
+                          "year": 2021
+                        },
+                        "startTime": {
+                          "hour": 11,
+                          "minute": 55
+                        },
+                        "endTime": {
+                          "hour": 13,
+                          "minute": 30
+                        }
+                      },
+                      {
+                        "date": {
+                          "day": 13,
+                          "month": 12,
+                          "year": 2021
+                        },
+                        "startTime": {
+                          "hour": 14,
+                          "minute": 30
+                        },
+                        "endTime": {
+                          "hour": 15,
+                          "minute": 15
+                        }
+                      },
+                      {
+                        "date": {
+                          "day": 14,
+                          "month": 12,
+                          "year": 2021
+                        },
+                        "startTime": {
+                          "hour": 8,
+                          "minute": 20
+                        },
+                        "endTime": {
+                          "hour": 13,
+                          "minute": 30
+                        }
+                      },
+                      {
+                        "date": {
+                          "day": 15,
+                          "month": 12,
+                          "year": 2021
+                        },
+                        "startTime": {
+                          "hour": 8,
+                          "minute": 20
+                        },
+                        "endTime": {
+                          "hour": 11,
+                          "minute": 50
+                        }
+                      },
+                      {
+                        "date": {
+                          "day": 15,
+                          "month": 12,
+                          "year": 2021
+                        },
+                        "startTime": {
+                          "hour": 12,
+                          "minute": 45
+                        },
+                        "endTime": {
+                          "hour": 14,
+                          "minute": 20
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "title": "RWD",
+            "semester": 1,
+            "classxyz": "X",
+            "ectsPoints": 5,
+            "teacher": {
+              "viaID": "KASR"
+            },
+            "sessionList": {
+              "sessionList": [
+                {
+                  "dayOfTheWeek": "MON",
+                  "numberOfLessons": 2,
+                  "courseTitle": "RWD",
+                  "startTime": {
+                    "hour": 11,
+                    "minute": 55
+                  },
+                  "endTime": {
+                    "hour": 13,
+                    "minute": 30
+                  },
+                  "lastEdited": {
+                    "year": 2021,
+                    "month": 12,
+                    "day": 12
+                  },
+                  "sessionDate": {
+                    "day": 13,
+                    "month": 12,
+                    "year": 2021
+                  },
+                  "weekNumber": 50,
+                  "classroom": {
+                    "room": "C05.15",
+                    "capacity": 45,
+                    "isBookedWhen": [
+                      {
+                        "date": {
+                          "day": 13,
+                          "month": 12,
+                          "year": 2021
+                        },
+                        "startTime": {
+                          "hour": 9,
+                          "minute": 10
+                        },
+                        "endTime": {
+                          "hour": 11,
+                          "minute": 50
+                        }
+                      },
+                      {
+                        "date": {
+                          "day": 13,
+                          "month": 12,
+                          "year": 2021
+                        },
+                        "startTime": {
+                          "hour": 11,
+                          "minute": 55
+                        },
+                        "endTime": {
+                          "hour": 13,
+                          "minute": 30
+                        }
+                      },
+                      {
+                        "date": {
+                          "day": 13,
+                          "month": 12,
+                          "year": 2021
+                        },
+                        "startTime": {
+                          "hour": 14,
+                          "minute": 30
+                        },
+                        "endTime": {
+                          "hour": 15,
+                          "minute": 15
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "dayOfTheWeek": "WED",
+                  "numberOfLessons": 2,
+                  "courseTitle": "RWD",
+                  "startTime": {
+                    "hour": 12,
+                    "minute": 45
+                  },
+                  "endTime": {
+                    "hour": 14,
+                    "minute": 20
+                  },
+                  "lastEdited": {
+                    "year": 2021,
+                    "month": 12,
+                    "day": 12
+                  },
+                  "sessionDate": {
+                    "day": 15,
+                    "month": 12,
+                    "year": 2021
+                  },
+                  "weekNumber": 50,
+                  "classroom": {
+                    "room": "C05.15",
+                    "capacity": 45,
+                    "isBookedWhen": [
+                      {
+                        "date": {
+                          "day": 13,
+                          "month": 12,
+                          "year": 2021
+                        },
+                        "startTime": {
+                          "hour": 9,
+                          "minute": 10
+                        },
+                        "endTime": {
+                          "hour": 11,
+                          "minute": 50
+                        }
+                      },
+                      {
+                        "date": {
+                          "day": 13,
+                          "month": 12,
+                          "year": 2021
+                        },
+                        "startTime": {
+                          "hour": 11,
+                          "minute": 55
+                        },
+                        "endTime": {
+                          "hour": 13,
+                          "minute": 30
+                        }
+                      },
+                      {
+                        "date": {
+                          "day": 13,
+                          "month": 12,
+                          "year": 2021
+                        },
+                        "startTime": {
+                          "hour": 14,
+                          "minute": 30
+                        },
+                        "endTime": {
+                          "hour": 15,
+                          "minute": 15
+                        }
+                      },
+                      {
+                        "date": {
+                          "day": 14,
+                          "month": 12,
+                          "year": 2021
+                        },
+                        "startTime": {
+                          "hour": 8,
+                          "minute": 20
+                        },
+                        "endTime": {
+                          "hour": 13,
+                          "minute": 30
+                        }
+                      },
+                      {
+                        "date": {
+                          "day": 15,
+                          "month": 12,
+                          "year": 2021
+                        },
+                        "startTime": {
+                          "hour": 8,
+                          "minute": 20
+                        },
+                        "endTime": {
+                          "hour": 11,
+                          "minute": 50
+                        }
+                      },
+                      {
+                        "date": {
+                          "day": 15,
+                          "month": 12,
+                          "year": 2021
+                        },
+                        "startTime": {
+                          "hour": 12,
+                          "minute": 45
+                        },
+                        "endTime": {
+                          "hour": 14,
+                          "minute": 20
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "title": "DMA",
+            "semester": 1,
+            "classxyz": "X",
+            "ectsPoints": 5,
+            "teacher": {
+              "viaID": "RIB"
+            },
+            "sessionList": {
+              "sessionList": [
+                {
+                  "dayOfTheWeek": "MON",
+                  "numberOfLessons": 1,
+                  "courseTitle": "DMA",
+                  "startTime": {
+                    "hour": 14,
+                    "minute": 30
+                  },
+                  "endTime": {
+                    "hour": 15,
+                    "minute": 15
+                  },
+                  "lastEdited": {
+                    "year": 2021,
+                    "month": 12,
+                    "day": 12
+                  },
+                  "sessionDate": {
+                    "day": 13,
+                    "month": 12,
+                    "year": 2021
+                  },
+                  "weekNumber": 50,
+                  "classroom": {
+                    "room": "C05.15",
+                    "capacity": 45,
+                    "isBookedWhen": [
+                      {
+                        "date": {
+                          "day": 13,
+                          "month": 12,
+                          "year": 2021
+                        },
+                        "startTime": {
+                          "hour": 9,
+                          "minute": 10
+                        },
+                        "endTime": {
+                          "hour": 11,
+                          "minute": 50
+                        }
+                      },
+                      {
+                        "date": {
+                          "day": 13,
+                          "month": 12,
+                          "year": 2021
+                        },
+                        "startTime": {
+                          "hour": 11,
+                          "minute": 55
+                        },
+                        "endTime": {
+                          "hour": 13,
+                          "minute": 30
+                        }
+                      },
+                      {
+                        "date": {
+                          "day": 13,
+                          "month": 12,
+                          "year": 2021
+                        },
+                        "startTime": {
+                          "hour": 14,
+                          "minute": 30
+                        },
+                        "endTime": {
+                          "hour": 15,
+                          "minute": 15
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "dayOfTheWeek": "WED",
+                  "numberOfLessons": 1,
+                  "courseTitle": "DMA",
+                  "startTime": {
+                    "hour": 14,
+                    "minute": 30
+                  },
+                  "endTime": {
+                    "hour": 15,
+                    "minute": 15
+                  },
+                  "lastEdited": {
+                    "year": 2021,
+                    "month": 12,
+                    "day": 12
+                  },
+                  "sessionDate": {
+                    "day": 15,
+                    "month": 12,
+                    "year": 2021
+                  },
+                  "weekNumber": 50,
+                  "classroom": {
+                    "room": "C05.16a",
+                    "capacity": 45,
+                    "isBookedWhen": [
+                      {
+                        "date": {
+                          "day": 15,
+                          "month": 12,
+                          "year": 2021
+                        },
+                        "startTime": {
+                          "hour": 14,
+                          "minute": 30
+                        },
+                        "endTime": {
+                          "hour": 15,
+                          "minute": 15
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "title": "SEP",
+            "semester": 1,
+            "classxyz": "X",
+            "ectsPoints": 10,
+            "teacher": {
+              "viaID": "ALHE"
+            },
+            "sessionList": {
+              "sessionList": [
+                {
+                  "dayOfTheWeek": "TUE",
+                  "numberOfLessons": 6,
+                  "courseTitle": "SEP",
+                  "startTime": {
+                    "hour": 8,
+                    "minute": 20
+                  },
+                  "endTime": {
+                    "hour": 13,
+                    "minute": 30
+                  },
+                  "lastEdited": {
+                    "year": 2021,
+                    "month": 12,
+                    "day": 12
+                  },
+                  "sessionDate": {
+                    "day": 14,
+                    "month": 12,
+                    "year": 2021
+                  },
+                  "weekNumber": 50,
+                  "classroom": {
+                    "room": "C05.15",
+                    "capacity": 45,
+                    "isBookedWhen": [
+                      {
+                        "date": {
+                          "day": 13,
+                          "month": 12,
+                          "year": 2021
+                        },
+                        "startTime": {
+                          "hour": 9,
+                          "minute": 10
+                        },
+                        "endTime": {
+                          "hour": 11,
+                          "minute": 50
+                        }
+                      },
+                      {
+                        "date": {
+                          "day": 13,
+                          "month": 12,
+                          "year": 2021
+                        },
+                        "startTime": {
+                          "hour": 11,
+                          "minute": 55
+                        },
+                        "endTime": {
+                          "hour": 13,
+                          "minute": 30
+                        }
+                      },
+                      {
+                        "date": {
+                          "day": 13,
+                          "month": 12,
+                          "year": 2021
+                        },
+                        "startTime": {
+                          "hour": 14,
+                          "minute": 30
+                        },
+                        "endTime": {
+                          "hour": 15,
+                          "minute": 15
+                        }
+                      },
+                      {
+                        "date": {
+                          "day": 14,
+                          "month": 12,
+                          "year": 2021
+                        },
+                        "startTime": {
+                          "hour": 8,
+                          "minute": 20
+                        },
+                        "endTime": {
+                          "hour": 13,
+                          "minute": 30
+                        }
+                      },
+                      {
+                        "date": {
+                          "day": 15,
+                          "month": 12,
+                          "year": 2021
+                        },
+                        "startTime": {
+                          "hour": 8,
+                          "minute": 20
+                        },
+                        "endTime": {
+                          "hour": 11,
+                          "minute": 50
+                        }
+                      },
+                      {
+                        "date": {
+                          "day": 15,
+                          "month": 12,
+                          "year": 2021
+                        },
+                        "startTime": {
+                          "hour": 12,
+                          "minute": 45
+                        },
+                        "endTime": {
+                          "hour": 14,
+                          "minute": 20
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "dayOfTheWeek": "THU",
+                  "numberOfLessons": 6,
+                  "courseTitle": "SEP",
+                  "startTime": {
+                    "hour": 8,
+                    "minute": 20
+                  },
+                  "endTime": {
+                    "hour": 13,
+                    "minute": 30
+                  },
+                  "lastEdited": {
+                    "year": 2021,
+                    "month": 12,
+                    "day": 12
+                  },
+                  "sessionDate": {
+                    "day": 16,
+                    "month": 12,
+                    "year": 2021
+                  },
+                  "weekNumber": 50,
+                  "classroom": {
+                    "room": "C05.15",
+                    "capacity": 45,
+                    "isBookedWhen": [
+                      {
+                        "date": {
+                          "day": 13,
+                          "month": 12,
+                          "year": 2021
+                        },
+                        "startTime": {
+                          "hour": 9,
+                          "minute": 10
+                        },
+                        "endTime": {
+                          "hour": 11,
+                          "minute": 50
+                        }
+                      },
+                      {
+                        "date": {
+                          "day": 13,
+                          "month": 12,
+                          "year": 2021
+                        },
+                        "startTime": {
+                          "hour": 11,
+                          "minute": 55
+                        },
+                        "endTime": {
+                          "hour": 13,
+                          "minute": 30
+                        }
+                      },
+                      {
+                        "date": {
+                          "day": 13,
+                          "month": 12,
+                          "year": 2021
+                        },
+                        "startTime": {
+                          "hour": 14,
+                          "minute": 30
+                        },
+                        "endTime": {
+                          "hour": 15,
+                          "minute": 15
+                        }
+                      },
+                      {
+                        "date": {
+                          "day": 14,
+                          "month": 12,
+                          "year": 2021
+                        },
+                        "startTime": {
+                          "hour": 8,
+                          "minute": 20
+                        },
+                        "endTime": {
+                          "hour": 13,
+                          "minute": 30
+                        }
+                      },
+                      {
+                        "date": {
+                          "day": 15,
+                          "month": 12,
+                          "year": 2021
+                        },
+                        "startTime": {
+                          "hour": 8,
+                          "minute": 20
+                        },
+                        "endTime": {
+                          "hour": 11,
+                          "minute": 50
+                        }
+                      },
+                      {
+                        "date": {
+                          "day": 15,
+                          "month": 12,
+                          "year": 2021
+                        },
+                        "startTime": {
+                          "hour": 12,
+                          "minute": 45
+                        },
+                        "endTime": {
+                          "hour": 14,
+                          "minute": 20
+                        }
+                      },
+                      {
+                        "date": {
+                          "day": 16,
+                          "month": 12,
+                          "year": 2021
+                        },
+                        "startTime": {
+                          "hour": 8,
+                          "minute": 20
+                        },
+                        "endTime": {
+                          "hour": 13,
+                          "minute": 30
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "title": "SEP",
+            "semester": 1,
+            "classxyz": "X",
+            "ectsPoints": 10,
+            "teacher": {
+              "viaID": "MWA"
+            },
+            "sessionList": {
+              "sessionList": []
+            }
+          }
+        ]
+      },
+      {
+        "semester": 1,
+        "classxyz": "Y",
+        "isPersonal": false,
+        "courses": [
+          {
+            "title": "SDJ",
+            "semester": 1,
+            "classxyz": "Y",
+            "ectsPoints": 10,
+            "teacher": {
+              "viaID": "SVA"
+            },
+            "sessionList": {
+              "sessionList": []
+            }
+          },
+          {
+            "title": "RWD",
+            "semester": 1,
+            "classxyz": "Y",
+            "ectsPoints": 5,
+            "teacher": {
+              "viaID": "LILE"
+            },
+            "sessionList": {
+              "sessionList": []
+            }
+          },
+          {
+            "title": "DMA",
+            "semester": 1,
+            "classxyz": "Y",
+            "ectsPoints": 5,
+            "teacher": {
+              "viaID": "RIB"
+            },
+            "sessionList": {
+              "sessionList": []
+            }
+          },
+          {
+            "title": "SEP",
+            "semester": 1,
+            "classxyz": "Y",
+            "ectsPoints": 10,
+            "teacher": {
+              "viaID": "SVA"
+            },
+            "sessionList": {
+              "sessionList": []
+            }
+          },
+          {
+            "title": "SEP",
+            "semester": 1,
+            "classxyz": "Y",
+            "ectsPoints": 10,
+            "teacher": {
+              "viaID": "MWA"
+            },
+            "sessionList": {
+              "sessionList": []
+            }
+          }
+        ]
+      },
+      {
+        "semester": 1,
+        "classxyz": "DK",
+        "isPersonal": false,
+        "courses": [
+          {
+            "title": "SDJ",
+            "semester": 1,
+            "classxyz": "DK",
+            "ectsPoints": 10,
+            "teacher": {
+              "viaID": "MIVI"
+            },
+            "sessionList": {
+              "sessionList": []
+            }
+          },
+          {
+            "title": "RWD",
+            "semester": 1,
+            "classxyz": "DK",
+            "ectsPoints": 5,
+            "teacher": {
+              "viaID": "AHAN"
+            },
+            "sessionList": {
+              "sessionList": []
+            }
+          },
+          {
+            "title": "DMA",
+            "semester": 1,
+            "classxyz": "DK",
+            "ectsPoints": 5,
+            "teacher": {
+              "viaID": "IOOD"
+            },
+            "sessionList": {
+              "sessionList": []
+            }
+          },
+          {
+            "title": "SEP",
+            "semester": 1,
+            "classxyz": "DK",
+            "ectsPoints": 10,
+            "teacher": {
+              "viaID": "MIVI"
+            },
+            "sessionList": {
+              "sessionList": []
+            }
+          },
+          {
+            "title": "SEP",
+            "semester": 1,
+            "classxyz": "DK",
+            "ectsPoints": 10,
+            "teacher": {
+              "viaID": "AHAN"
+            },
+            "sessionList": {
+              "sessionList": []
+            }
+          }
+        ]
+      },
+      {
+        "semester": 1,
+        "classxyz": "Z",
+        "isPersonal": false,
+        "courses": [
+          {
+            "title": "SDJ",
+            "semester": 1,
+            "classxyz": "Z",
+            "ectsPoints": 10,
+            "teacher": {
+              "viaID": "SVA"
+            },
+            "sessionList": {
+              "sessionList": []
+            }
+          },
+          {
+            "title": "SDJ",
+            "semester": 1,
+            "classxyz": "Z",
+            "ectsPoints": 10,
+            "teacher": {
+              "viaID": "KLAB"
+            },
+            "sessionList": {
+              "sessionList": []
+            }
+          },
+          {
+            "title": "RWD",
+            "semester": 1,
+            "classxyz": "Z",
+            "ectsPoints": 5,
+            "teacher": {
+              "viaID": "LILE"
+            },
+            "sessionList": {
+              "sessionList": []
+            }
+          },
+          {
+            "title": "DMA",
+            "semester": 1,
+            "classxyz": "Z",
+            "ectsPoints": 5,
+            "teacher": {
+              "viaID": "IOOD"
+            },
+            "sessionList": {
+              "sessionList": []
+            }
+          },
+          {
+            "title": "SEP",
+            "semester": 1,
+            "classxyz": "Z",
+            "ectsPoints": 10,
+            "teacher": {
+              "viaID": "SVA"
+            },
+            "sessionList": {
+              "sessionList": []
+            }
+          },
+          {
+            "title": "SEP",
+            "semester": 1,
+            "classxyz": "Z",
+            "ectsPoints": 10,
+            "teacher": {
+              "viaID": "MWA"
+            },
+            "sessionList": {
+              "sessionList": []
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "allCourses": {
+    "allCourses": [
+      {
+        "title": "SDJ",
+        "semester": 1,
+        "classxyz": "X",
+        "ectsPoints": 10,
+        "teacher": {
+          "viaID": "ALHE"
+        },
+        "sessionList": {
+          "sessionList": []
+        }
+      },
+      {
+        "title": "SDJ",
+        "semester": 1,
+        "classxyz": "Y",
+        "ectsPoints": 10,
+        "teacher": {
+          "viaID": "SVA"
+        },
+        "sessionList": {
+          "sessionList": []
+        }
+      },
+      {
+        "title": "SDJ",
+        "semester": 1,
+        "classxyz": "Z",
+        "ectsPoints": 10,
+        "teacher": {
+          "viaID": "SVA"
+        },
+        "sessionList": {
+          "sessionList": []
+        }
+      },
+      {
+        "title": "SDJ",
+        "semester": 1,
+        "classxyz": "Z",
+        "ectsPoints": 10,
+        "teacher": {
+          "viaID": "KLAB"
+        },
+        "sessionList": {
+          "sessionList": []
+        }
+      },
+      {
+        "title": "SDJ",
+        "semester": 1,
+        "classxyz": "DK",
+        "ectsPoints": 10,
+        "teacher": {
+          "viaID": "MIVI"
+        },
+        "sessionList": {
+          "sessionList": []
+        }
+      },
+      {
+        "title": "RWD",
+        "semester": 1,
+        "classxyz": "X",
+        "ectsPoints": 5,
+        "teacher": {
+          "viaID": "KASR"
+        },
+        "sessionList": {
+          "sessionList": []
+        }
+      },
+      {
+        "title": "RWD",
+        "semester": 1,
+        "classxyz": "Y",
+        "ectsPoints": 5,
+        "teacher": {
+          "viaID": "LILE"
+        },
+        "sessionList": {
+          "sessionList": []
+        }
+      },
+      {
+        "title": "RWD",
+        "semester": 1,
+        "classxyz": "Z",
+        "ectsPoints": 5,
+        "teacher": {
+          "viaID": "LILE"
+        },
+        "sessionList": {
+          "sessionList": []
+        }
+      },
+      {
+        "title": "RWD",
+        "semester": 1,
+        "classxyz": "DK",
+        "ectsPoints": 5,
+        "teacher": {
+          "viaID": "AHAN"
+        },
+        "sessionList": {
+          "sessionList": []
+        }
+      },
+      {
+        "title": "DMA",
+        "semester": 1,
+        "classxyz": "X",
+        "ectsPoints": 5,
+        "teacher": {
+          "viaID": "RIB"
+        },
+        "sessionList": {
+          "sessionList": []
+        }
+      },
+      {
+        "title": "DMA",
+        "semester": 1,
+        "classxyz": "Y",
+        "ectsPoints": 5,
+        "teacher": {
+          "viaID": "RIB"
+        },
+        "sessionList": {
+          "sessionList": []
+        }
+      },
+      {
+        "title": "DMA",
+        "semester": 1,
+        "classxyz": "Z",
+        "ectsPoints": 5,
+        "teacher": {
+          "viaID": "IOOD"
+        },
+        "sessionList": {
+          "sessionList": []
+        }
+      },
+      {
+        "title": "DMA",
+        "semester": 1,
+        "classxyz": "DK",
+        "ectsPoints": 5,
+        "teacher": {
+          "viaID": "IOOD"
+        },
+        "sessionList": {
+          "sessionList": []
+        }
+      },
+      {
+        "title": "SEP",
+        "semester": 1,
+        "classxyz": "X",
+        "ectsPoints": 10,
+        "teacher": {
+          "viaID": "ALHE"
+        },
+        "sessionList": {
+          "sessionList": []
+        }
+      },
+      {
+        "title": "SEP",
+        "semester": 1,
+        "classxyz": "X",
+        "ectsPoints": 10,
+        "teacher": {
+          "viaID": "MWA"
+        },
+        "sessionList": {
+          "sessionList": []
+        }
+      },
+      {
+        "title": "SEP",
+        "semester": 1,
+        "classxyz": "Y",
+        "ectsPoints": 10,
+        "teacher": {
+          "viaID": "SVA"
+        },
+        "sessionList": {
+          "sessionList": []
+        }
+      },
+      {
+        "title": "SEP",
+        "semester": 1,
+        "classxyz": "Y",
+        "ectsPoints": 10,
+        "teacher": {
+          "viaID": "MWA"
+        },
+        "sessionList": {
+          "sessionList": []
+        }
+      },
+      {
+        "title": "SEP",
+        "semester": 1,
+        "classxyz": "Z",
+        "ectsPoints": 10,
+        "teacher": {
+          "viaID": "SVA"
+        },
+        "sessionList": {
+          "sessionList": []
+        }
+      },
+      {
+        "title": "SEP",
+        "semester": 1,
+        "classxyz": "Z",
+        "ectsPoints": 10,
+        "teacher": {
+          "viaID": "MWA"
+        },
+        "sessionList": {
+          "sessionList": []
+        }
+      },
+      {
+        "title": "SEP",
+        "semester": 1,
+        "classxyz": "DK",
+        "ectsPoints": 10,
+        "teacher": {
+          "viaID": "MIVI"
+        },
+        "sessionList": {
+          "sessionList": []
+        }
+      },
+      {
+        "title": "SEP",
+        "semester": 1,
+        "classxyz": "DK",
+        "ectsPoints": 10,
+        "teacher": {
+          "viaID": "AHAN"
+        },
+        "sessionList": {
+          "sessionList": []
+        }
+      },
+      {
+        "title": "SEP",
+        "semester": 2,
+        "classxyz": "X",
+        "ectsPoints": 10,
+        "teacher": {
+          "viaID": "HEKP"
+        },
+        "sessionList": {
+          "sessionList": []
+        }
+      },
+      {
+        "title": "SEP",
+        "semester": 2,
+        "classxyz": "X",
+        "ectsPoints": 10,
+        "teacher": {
+          "viaID": "TRMO"
+        },
+        "sessionList": {
+          "sessionList": []
+        }
+      }
+    ]
+  }
+}

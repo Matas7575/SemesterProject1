@@ -1,0 +1,86 @@
+html,
+body {
+    height: 100%;
+}
+#bird{
+    height: 100px;
+    width: auto;
+    position: absolute;
+    z-index: 3;
+}
+
+#butterfly {
+    height: 200px;
+    width: auto;
+    position: absolute;
+    z-index: 3;
+}
+
+#wateringcan {
+    width: 200px;
+    position: fixed;
+    bottom: 20%;
+    left: 40%;
+}
+
+
+.waterdrop {
+    width: 20px;
+    display: none;
+}
+
+#net {
+    height: 600px;
+    width: auto;
+    position: absolute;
+
+}
+
+.apple {
+    height: 50px;
+    width: auto;
+    position: absolute;
+    z-index: 1;
+}
+
+#tree {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+
+}
+
+.basket {
+    width: 200px;
+    position: fixed;
+    bottom: 20px;
+    left: 20%;
+
+}
+
+#basketfront {
+    z-index: 2;
+}
+
+
+body {
+    margin: 0px;
+    background-image: url("../images/grass.png");
+    background-attachment: fixed;
+    background-repeat: repeat-x;
+    background-position: bottom;
+    overflow: hidden;
+}
+
+.points{
+    margin-left: 5px;
+}
+
+h1,h2{
+    margin: 0;
+}
+
+/* source: https://www.w3schools.com/howto/howto_css_flip_image.asp */
+.mirror {
+     transform: scale(-1, 1);
+}

@@ -1,0 +1,122 @@
+#logo, #vialogo {
+    width: 200px;
+}
+
+.active { /* When you are in the page change that page's url on the navbar */
+  color: #ebb857 !important;
+  font-weight: bold;
+}
+/* Color Scheme */
+.lightgray{
+  color: #989b83;
+    }
+    
+.darkgray{
+     color: #1e1e1e;
+}
+.gray{
+  color: #645f54
+}
+  
+.blue{
+  color: #386187;
+}
+  
+.yellow{
+  color: #ebb857;
+}
+
+.blightgray{
+  background-color: #989b83;
+    }
+    
+.bdarkgray{
+  background-color: #1e1e1e;
+}
+.bgray{
+  background-color: #645f54
+}
+  
+.bblue{
+  background-color: #386187;
+}
+  
+.byellow{
+  background-color: #ebb857;
+}
+
+.bred{
+  background-color: #bd543a;
+}
+
+.cont{
+  background-color: #f4f2ef;
+}
+
+
+li a {
+    color: white; /* Text color  */
+    text-align: center; /* Text stays in tge center  */
+    text-decoration: none; /* No default blue shit */
+  }
+
+  li a:hover { 
+    background-color: #645f54; /* Change backgroudnd color when the mouse is hover */
+  }
+
+
+.card{
+  height: 200px;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+  background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+  background-color: #555;
+}
+
+.upcomingClass {
+  margin-top: 15px;
+  color: black;
+  text-align: left;
+  padding: 3px 15px 3px 3px;
+  border-left: 7px solid #386187;
+  background-color: rgba(56, 97, 135, 0.1);
+}
+
+.upcomingClass p {
+  color: #645f54;
+  margin-bottom: 0;
+}
+
+.upcomingClass h3 {
+  color: #1e1e1e;
+}
+
+.mails {
+  text-decoration: none;
+  color:#ebb857;
+}
+
+#indicatorsCSS {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#myCarousel {
+  padding-bottom: 30px;
+}
+

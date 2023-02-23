@@ -1,0 +1,183 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Color Scheme */
+.lightgray {
+  color: #989b83;
+}
+
+.darkgray {
+  color: #1e1e1e;
+}
+
+.gray {
+  color: #645f54
+}
+
+.blue {
+  color: #386187;
+}
+
+.yellow {
+  color: #ebb857;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  /*Good looking font  */
+}
+
+/* Navigation Bar */
+.nav {
+  height: 70px;
+  background-color: #1e1e1e;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+ul {
+  list-style-type: none;
+  /* No points */
+  margin: 0;
+  padding: 0;
+  /* No margins/paddings so it's on top */
+  overflow: auto;
+  /* Fills everything  */
+  background-color: #1e1e1e;
+  /* Dark gray color */
+}
+
+li {
+  float: left;
+  /* Aligin items on left side of the navbar */
+}
+
+li a {
+  display: block;
+  /* Looks normal */
+  color: white;
+  /* Text color  */
+  text-align: center;
+  /* Text stays in tge center  */
+  padding: 20px 26px;
+  /* Navbar's items "size" */
+  text-decoration: none;
+  /* No default blue shit */
+}
+
+li a:hover {
+  background-color: #645f54;
+  /* Change backgroudnd color when the mouse is hover */
+}
+
+.active {
+  /* When you are in the page change that page's url on the navbar */
+  color: #ebb857;
+  font-weight: bold;
+}
+
+.navbarlogo {
+  width: 200px;
+  /*Logo size for the navbar */
+  height: 54.84px;
+  margin-left: 10px;
+}
+
+.vialogo {
+  width: 200px;
+  height: 54.84px;
+  /*Logo size for the navbar */
+  margin-right: 10px;
+  /*Some margin so its looks good*/
+}
+
+h1 {
+  text-align: center;
+  /*Center Title*/
+}
+
+/* Content */
+
+.content {
+  /*Defines all content space*/
+  padding-top: 30px;
+  position: relative;
+  text-align: center;
+}
+
+div.sub {
+  /*sub = us DNFC*/
+  margin: 5px;
+  /*Looks good (spaces between subjcts)*/
+  text-align: center;
+  width: 300px;
+}
+
+
+div.sub img {
+  /*Defines every image of us so it looks the same*/
+  width: 280px;
+  height: auto;
+  text-align: center;
+}
+
+
+div.sub a {
+  text-decoration: none;
+  color: #ebb857;
+}
+
+div.desc {
+  /*Sub = Subjects*/
+  text-align: center;
+}
+
+table {
+  padding-top: 30px;
+  /* So it's not close to the title */
+  margin: 0 auto;
+}
+
+table h3 {
+  /* Defines the subject title */
+  padding-top: 5px;
+  color: #1e1e1e;
+}
+
+
+table p {
+  margin-bottom: 50px;
+  /* Just here to create some space between top and bottom subjects */
+}
+
+/* Footer */
+.footer {
+  position: fixed;
+  /* It doesn't move, always on the bottom because on the two next lines */
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  /* Defines the size of the footer */
+  background-color: #1e1e1e;
+  color: white;
+  display: table;
+  /* Make easier to center the text (reltated to: "display: table-cell;" )*/
+}
+
+.footer p {
+  display: table-cell;
+  /* Explained above (line 132) */
+  vertical-align: middle;
+  text-align: center;
+}
+
+.footer a {
+  /* Anchor doesn't looks blue */
+  text-decoration: none;
+  color: #ebb857;
+}
